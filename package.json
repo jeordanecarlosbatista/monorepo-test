@@ -1,0 +1,16 @@
+{
+  "name": "lerne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/jeordanecarlosbatista"
+  },
+  "repository": "https://github.com/jeordanecarlosbatista/monorepo-test.git",
+  "author": "",
+  "license": "ISC"
+}
