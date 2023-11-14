@@ -1,15 +1,22 @@
 {
-  "name": "@jeordanecarlosbatista/monorepo-test",
+  "name": "monorepo-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/**"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish:all": "lerna publish from-package --registry https://npm.pkg.github.com --yes ---summary-file"
   },
   "keywords": [],
   "publishConfig": {
     "@jeordanecarlosbatista:registry": "https://npm.pkg.github.com"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.4.2"
+  }
 }
