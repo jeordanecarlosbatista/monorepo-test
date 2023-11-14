@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jeordanecarlosbatista"
+    "@jeordanecarlosbatista:registry": "https://npm.pkg.github.com"
   },
   "repository": "https://github.com/jeordanecarlosbatista/monorepo-test.git",
   "author": "",
